@@ -1,5 +1,5 @@
 #include <Servo.h>
-// import servo library, need to get it from.......
+// import servo library, get it from the Arduino Library Manager and install onto board
 
 Servo myServo;
 // create the servo object
