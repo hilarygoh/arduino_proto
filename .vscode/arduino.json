@@ -2,5 +2,5 @@
     "programmer": "AVR ISP",
     "board": "arduino:avr:uno",
     "port": "COM3",
-    "sketch": "2_Starter_Kit_Projects\\loveOmeter.ino"
+    "sketch": "1_Run_Sketch\\loveOmeter.ino"
 }
