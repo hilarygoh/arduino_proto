@@ -18,13 +18,13 @@ void loop(){
 
     // convert the ADC reading to voltage
     float voltage = (sensorVal/1024.0)*5.0;
-    Serial.print(" , Volts: ");
+    Serial.print("  Volts: ");
     Serial.print(voltage);
     
     // convert voltage to temperature C
     float temperature = (voltage - 0.5) * 100;
-    Serial.print(" , Degrees C: ");
-    Serial.println(temperature);
+    Serial.print("  Degrees C: ");
+    Serial.print(temperature);
 
     //set thresholds for LED's
 
@@ -47,7 +47,9 @@ void loop(){
         digitalWrite(2, HIGH);
         digitalWrite(3, HIGH);
         digitalWrite(4, HIGH);
-        Serial.println("Too Hot!");
+        Serial.print("  Too Hot!");
     }
+    Serial.println("");
     delay(500);
+
 }
