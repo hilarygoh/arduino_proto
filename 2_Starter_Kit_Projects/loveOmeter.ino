@@ -6,6 +6,7 @@ void setup(){
     for(int pinNumber = 2; pinNumber<5; pinNumber++){ // run through all pins sequentially
         pinMode(pinNumber, OUTPUT); // set all pins to OUTPUT mode
         digitalWrite(pinNumber, LOW); // set all pins to LOW
+        //wedfw'eoihfwoeihf
     }
 }
 
