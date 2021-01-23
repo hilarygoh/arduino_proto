@@ -1,6 +1,6 @@
 {
     "programmer": "AVR ISP",
     "board": "arduino:avr:uno",
-    "port": "COM3",
-    "sketch": "1_Run_Sketch\\loveOmeter.ino"
+    "port": "COM4",
+    "sketch": "1_Run_Sketch\\Balcony_Temps.ino"
 }
